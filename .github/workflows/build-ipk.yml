@@ -132,7 +132,7 @@ jobs:
         run: |
           cd openwrt/bin/packages
           # Delete Firewall IPK
-          find . -type f -name 'luci-app-firewall*' | while read FILE ; do
+          find . -type f -name 'luci-app-tinyfm*' | while read FILE ; do
             rm -f ${FILE} ;
           done
           # Checking all IPK's location
